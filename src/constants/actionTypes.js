@@ -1,0 +1,32 @@
+// main action types
+export const RESET_STATE = "RESET_STATE";
+export const CHANGE_SCREEN = "CHANGE_SCREEN";
+
+/**
+ * Auth module
+ * all auth module action types defined here
+ */
+// access token
+export const GET_AUTH_TOKEN = "GET_AUTH_TOKEN";
+export const GET_AUTH_TOKEN_FAILURE = "GET_AUTH_TOKEN_FAILURE";
+export const GET_AUTH_TOKEN_SUCCESS = "GET_AUTH_TOKEN_SUCCESS";
+export const SET_AUTH_TOKEN_FORM_DATA = "SET_AUTH_TOKEN_FORM_DATA";
+// forget password
+export const FORGET_PASSWORD = "FORGET_PASSWORD";
+export const FORGET_PASSWORD_FAILURE = "FORGET_PASSWORD_FAILURE";
+export const FORGET_PASSWORD_SUCCESS = "FORGET_PASSWORD_SUCCESS";
+export const SET_FORGET_PASSWORD_FORM_DATA = "SET_FORGET_PASSWORD_FORM_DATA";
+// reset password
+export const RESET_PASSWORD = "RESET_PASSWORD";
+export const RESET_PASSWORD_FAILURE = "RESET_PASSWORD_FAILURE";
+export const RESET_PASSWORD_SUCCESS = "RESET_PASSWORD_SUCCESS";
+export const SET_RESET_PASSWORD_FORM_DATA = "SET_RESET_PASSWORD_FORM_DATA";
+// register
+export const REGISTER = "REGISTER";
+export const REGISTER_FAILURE = "REGISTER_FAILURE";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const SET_REGISTER_FORM_DATA = "SET_REGISTER_FORM_DATA";
+// auth user
+export const GET_AUTH_USER = "GET_AUTH_USER";
+export const GET_AUTH_USER_FAILURE = "GET_AUTH_USER_FAILURE";
+export const GET_AUTH_USER_SUCCESS = "GET_AUTH_USER_SUCCESS";

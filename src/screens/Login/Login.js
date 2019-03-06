@@ -1,8 +1,9 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, Header } from "../../components";
 
 const Login = () => (
   <View>
+    <Header disableLeft={true} />
     <Text>Login page</Text>
   </View>
 );

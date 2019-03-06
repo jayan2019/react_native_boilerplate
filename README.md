@@ -19,3 +19,5 @@ Best shortcut for `react-native init <app_name>`
 8 - `native-base` - Essential cross-platform UI components for React Native
 
 9 - `react-native-elements` - Cross Platform React Native UI Toolkit
+
+10 - `react-native-material-textfield` - Stylish text input

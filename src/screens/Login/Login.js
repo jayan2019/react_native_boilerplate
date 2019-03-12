@@ -1,9 +1,9 @@
 import React from "react";
-import { View, Text, Header } from "../../components";
+import styles from "./styles";
+import { View, Text } from "../../components";
 
 const Login = () => (
-  <View>
-    <Header disableLeft={true} />
+  <View style={styles.containerStyle}>
     <Text>Login page</Text>
   </View>
 );
